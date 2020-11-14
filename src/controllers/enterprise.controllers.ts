@@ -21,11 +21,3 @@ export const crear = async (req: Request, res: Response) => {
     }
 }
 
-export const prueba = (req: Request, res: Response) => {
-    const envio = {
-        saludo: "hola"
-    }
-    console.log("hola")
-    return res.json(envio)
-}
-
